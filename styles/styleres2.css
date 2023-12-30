@@ -108,3 +108,20 @@ text-center {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width:600px) {
+
+  h2.mb-3 {
+    font-size: 29px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .button-dress {
+    display: block;
+    text-align: center;
+  }
+}
