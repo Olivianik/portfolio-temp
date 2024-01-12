@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 
+i.fa-solid.fa-hands-bubbles {
+    color: var(--primary-color);
+}
+
 .container h1 {
     font-size: 96px;
     font-weight: bold;
