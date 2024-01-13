@@ -86,6 +86,11 @@ div.project-description {
         line-height: 2;
     }
 
+    .container-main h2 {
+    font-weight: bold;
+
+    }
+
     .next {
         font-size: 45px;
     }
