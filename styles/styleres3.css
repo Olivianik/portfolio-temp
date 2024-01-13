@@ -39,6 +39,12 @@ p {
 
 p.mb-5.text-muted {
     color: #6c756d;
+    font-family: var(--default-font-family);
+    font-weight: normal;
+}
+
+p.text-center.mb-5.mt-5 {
+    font-weight: 450;
 }
 
 .container-main h1 {
@@ -61,7 +67,7 @@ p.mb-5.text-muted {
 }
 
 a.btn.btn-branding {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     color: white;
     border-radius: 4px;
     padding: 15px 30px;
@@ -87,7 +93,7 @@ div.project-description {
         text-align: center;
     }
 
-    div.project-description.mb-5.mt-5 {
+    div.project-description.next.mb-5.mt-5 {
         padding: 0;
         text-align: center;
     }
