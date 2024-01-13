@@ -48,18 +48,19 @@ p {
 }
 
 .container-main h2 {
-    font-family: var(--default-font-family);
-    font-weight: normal;
+    font-family: var(--head-font-family);
+    font-weight: bold;
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 a.btn.btn-branding {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
     border-radius: 4px;
     padding: 15px 30px;
     line-height: 27px;
+    font-size: 18px;
 }
 a.btn.btn-branding-2 {
     border-radius: 4px;
@@ -67,6 +68,7 @@ a.btn.btn-branding-2 {
     line-height: 27px;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
+    font-size: 18px;
 }
 
 div.project-description {
@@ -81,7 +83,7 @@ div.project-description {
 
     .container-main h1 {
         font-size: 45px;
-        line-height: 1.5;
+        line-height: 2;
     }
 
     .next {
