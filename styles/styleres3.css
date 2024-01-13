@@ -9,7 +9,7 @@ body {
   font-family: var(--default-font-family);
 }
 
-.container {
+.container-main {
     background-color: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
@@ -21,21 +21,32 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 
+.next{
+    font-size: 64px;
+    font-weight: bold;
+}
+
 i.fa-solid.fa-hands-bubbles {
     color: var(--primary-color);
 }
 
-.container h1 {
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.container-main h1 {
     font-size: 96px;
     font-weight: bold;
 }
-.container p {
+.container-main p {
     font-size: 36px;
     font-weight: bold;
     color: #272142;
     margin: 0;
 }
-.container h2 {
+
+.container-main h2 {
     font-family: var(--default-font-family);
     font-weight: normal;
     font-size: 24px;
@@ -48,4 +59,22 @@ a.btn.btn-branding {
     border-radius: 4px;
     padding: 15px 30px;
     line-height: 27px;
+}
+a.btn.btn-branding-2 {
+    border-radius: 4px;
+    padding: 15px 30px;
+    line-height: 27px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+div.project-description {
+    padding: 120px 60px 0;
+}
+
+@media (max-width: 900px) {
+    div.project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
