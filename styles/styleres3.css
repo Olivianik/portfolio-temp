@@ -118,4 +118,27 @@ div.project-description {
     .container-main {
         padding: 80px 20px;
     }
+
+    div.about-sect.container {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.about-sect {
+    padding: 160px 20px;
+}
+
+.about-sect h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-sect h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.section-content {
+    margin: 30px;
 }
