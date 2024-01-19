@@ -221,8 +221,8 @@ footer .email-l {
     font-size: 24px;
     color: black;
     text-align: center;
-    font-family: var(--head-font-family);
-    font-weight: 40%;
+    font-family: var(--default-font-family);
+    font-weight: bold;
 }
 
 footer .email-l:hover {
