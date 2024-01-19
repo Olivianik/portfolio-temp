@@ -139,6 +139,11 @@ div.project-description {
         font-size: 12px;
 
     }
+
+    div.content h1 {
+        font-size: 45px;
+        line-height: 2;
+    }
 }
 
 .content-container {
