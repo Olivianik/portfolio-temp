@@ -1,8 +1,9 @@
 :root {
-    --primary-color: rgb(50, 223, 50);
+    --primary-color: rgb(98, 174, 213);
     --secondary-color: #f5f2fe;
     --head-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
+    --testing-color: rgb(145, 175, 128);
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .container-main {
-    background-color: var(--secondary-color);
+    background-color: var(--testing-color);
     text-align: center;
     padding: 80px 20px;
 }
@@ -27,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 i.fa-solid.fa-hands-bubbles {
-    color: var(--primary-color);
+    color: var(--testing-color);
 }
 
 p {
@@ -169,6 +170,8 @@ div.project-description {
 
 .content p {
     font-size: 14px;
+    font-family: var(--default-font-family);
+    font-weight: bold;
 }
 
 .content {
@@ -212,7 +215,7 @@ footer {
 }
 
 footer .contact-box {
-    background: var(--secondary-color);
+    background: var(--testing-color);
     padding: 30px 120px;
     border-radius: 10px;
 }
